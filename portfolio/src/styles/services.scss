@@ -1,0 +1,46 @@
+.services--container {
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%; 
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 90%;
+        max-width: 500px; 
+        background-color: rgb(242, 229, 229);
+        border-radius: 15px;
+        padding: 20px; 
+
+        .icone {
+            position: absolute;
+            top: -50px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            width: 100px; 
+            height: 100px; 
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .skills, .languages {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            text-align: center; 
+            margin-top: 20px; 
+        }
+
+        .skills {
+            padding: 0 20px;
+        }
+    }
+}
