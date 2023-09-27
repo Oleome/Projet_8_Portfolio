@@ -7,6 +7,9 @@ import react from '../assets/react.png';
 import node from '../assets/nodejs.png';
 import light from '../assets/light.png';
 import ordi from '../assets/ordi.png';
+import accueil from '../assets/kasa_accueil.png';
+import details from '../assets/kasa_details.png';
+import apropos from '../assets/kasa_a_propos.png';
 import { useState } from 'react';
 import Modal from '../components/Modal/modal';
 
@@ -32,7 +35,6 @@ function Projets () {
                     <div className="hover-image">
                         <h3>Création du site Kasa avec React</h3>
                         <button onClick={openModal}>Details</button>
-                        <Modal showModal={showModal} setShowModal={setShowModal} />
                     </div>
                 </div>
                 <div className="card">
@@ -62,7 +64,17 @@ function Projets () {
                         <h3>Création application React pour un streamer twitch créant des shaders OBS</h3>
                     </div>
                 </div>
-            </div>           
+            </div>   
+            <Modal 
+                showModal={showModal} 
+                setShowModal={setShowModal} 
+                firstPic={accueil}
+                firstText='Le but de ce projet était de créez une application web de location immobilière avec React'
+                secondPic={details}
+                secondText='Avec comme support Create-react-app, ce projet m&apos;a permis de mieux appréhender les possibilités de React'
+                thirdPic={apropos}
+                thirdText='La réutilisation de composant ainsi que l&apos;utilisation de Sass m&apos;ont vraiment passionné'
+            />
         </main>
     )
 }
