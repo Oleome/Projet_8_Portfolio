@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"title": "Création du site Kasa avec React",
+		"cover": "/Kasa.png",
+        "pastille": "/react.png"
+	},
+    {
+        "id": "2",
+		"title": "Backend du site Mon vieux grimoire",
+		"cover": "/monvieuxgrimoire.png",
+        "pastille": "/nodejs.png"
+    },
+    {
+		"id": "3",
+		"title": "Débug du portfolio de Nina Carducci",
+		"cover": "/nina.png",
+        "pastille": "/light.png"
+	},
+    {
+        "id": "4",
+		"title": "Création application React pour un streamer twitch créant des shaders OBS",
+		"cover": "/shader.png",
+        "pastille": "/react.png"
+    }
+]

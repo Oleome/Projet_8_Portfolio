@@ -1,17 +1,9 @@
-import kasa from '../assets/Kasa.png';
-import nina from '../assets/nina.png';
-import grimoire from '../assets/monvieuxgrimoire.png';
-import shader from '../assets/shader.png';
 import '../styles/projet.scss';
-import react from '../assets/react.png';
-import node from '../assets/nodejs.png';
-import light from '../assets/light.png';
 import ordi from '../assets/ordi.png';
-import accueil from '../assets/kasa_accueil.png';
-import details from '../assets/kasa_details.png';
-import apropos from '../assets/kasa_a_propos.png';
 import { useState } from 'react';
 import Modal from '../components/Modal/modal';
+import jsonData from '../data/data.json';
+import Card from '../components/Card/card';
 
 function Projets () {
 
@@ -28,17 +20,29 @@ function Projets () {
                 <img src={ordi} alt="une icône d'ordinateur" />
             </div>
             <div className="container">
-                <div className="card">
-                    <img className='card--img' src={kasa} alt="page d'accueil du site kasa" />
+                
+                {jsonData.map((item) => (
+                    <Card
+                        key={item.id}
+                        id={item.id}
+                        cover={item.cover}
+                        pastille={item.pastille}
+                        title={item.title}
+                    />
+                    ))}
+                                
+              
+                {/* <div className="card">
+                    <img className='card--img' src={jsonData.cover} alt="page d'accueil du site kasa" />
                     <div className='pastille'>
-                        <img className='pastille--tech' src={react} alt="logo de react" />
+                        <img className='pastille--tech' src={jsonData.pastille} alt="logo de react" />
                     </div>
                     <div className="hover-image">
-                        <h3>Création du site Kasa avec React</h3>
+                        <h3>{jsonData.title}</h3>
                         <button onClick={openModal}>Details</button>
                     </div>
-                </div>
-                <div className="card">
+                </div> */}
+                {/* <div className="card">
                     <img className='card--img' src={grimoire} alt="" />
                     <div className='pastille'>
                         <img className='pastille--tech' src={node} alt="" />
@@ -67,9 +71,9 @@ function Projets () {
                         <h3>Création application React pour un streamer twitch créant des shaders OBS</h3>
                         <button onClick={openModal}>Details</button>
                     </div>
-                </div>
+                </div> */}
             </div>   
-            <Modal 
+            {/* <Modal 
                 showModal={showModal} 
                 setShowModal={setShowModal} 
                 firstPic={accueil}
@@ -78,7 +82,7 @@ function Projets () {
                 secondText='Avec comme support Create-react-app, ce projet m&apos;a permis de mieux appréhender les possibilités de React'
                 thirdPic={apropos}
                 thirdText='La réutilisation de composant ainsi que l&apos;utilisation de Sass m&apos;ont vraiment passionné'
-            />
+            /> */}
         </main>
     )
 }
