@@ -16,6 +16,7 @@ import Modal from '../components/Modal/modal';
 function Projets () {
 
     const [showModal, setShowModal] = useState(false);
+    const [projectShown, setProjectShown] = useState({}); 
     const openModal = () => {
         setShowModal(prev => !prev)
     };
@@ -44,6 +45,7 @@ function Projets () {
                     </div>
                     <div className="hover-image">
                         <h3>Backend du site Mon vieux grimoire</h3>
+                        <button onClick={openModal}>Details</button>
                     </div>
                 </div>
                 <div className="card">
@@ -53,6 +55,7 @@ function Projets () {
                     </div>
                     <div className="hover-image">
                         <h3>Débug du portfolio de Nina Carducci</h3>
+                        <button onClick={openModal}>Details</button>
                     </div>
                 </div>
                 <div className="card">
@@ -62,6 +65,7 @@ function Projets () {
                     </div>
                     <div className="hover-image">
                         <h3>Création application React pour un streamer twitch créant des shaders OBS</h3>
+                        <button onClick={openModal}>Details</button>
                     </div>
                 </div>
             </div>   
