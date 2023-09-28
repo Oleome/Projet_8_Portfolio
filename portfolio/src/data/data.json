@@ -3,24 +3,64 @@
 		"id": "1",
 		"title": "Création du site Kasa avec React",
 		"cover": "/Kasa.png",
-        "pastille": "/react.png"
+        "pastille": "/react.png",
+        "pics":[
+            "/kasa_accueil.png",
+			"/kasa_details.png",
+			"/kasa_a_propos.png"
+        ],
+        "texts": [
+            "Le but de ce projet était de créez une application web de location immobilière avec React",
+			"Avec comme support Create-react-app, ce projet m'a permis de mieux appréhender les possibilités de React",
+			"La réutilisation de composant ainsi que l&apos;utilisation de Sass m&apos;ont vraiment passionné"
+        ]
 	},
     {
         "id": "2",
 		"title": "Backend du site Mon vieux grimoire",
 		"cover": "/monvieuxgrimoire.png",
-        "pastille": "/nodejs.png"
+        "pastille": "/nodejs.png",
+        "pics":[
+            "",
+			"",
+			""
+        ],
+        "texts": [
+            "",
+			"",
+			""
+        ]
     },
     {
 		"id": "3",
 		"title": "Débug du portfolio de Nina Carducci",
 		"cover": "/nina.png",
-        "pastille": "/light.png"
+        "pastille": "/light.png",
+        "pics":[
+            "",
+			"",
+			""
+        ],
+        "texts": [
+            "",
+			"",
+			""
+        ]
 	},
     {
         "id": "4",
 		"title": "Création application React pour un streamer twitch créant des shaders OBS",
 		"cover": "/shader.png",
-        "pastille": "/react.png"
+        "pastille": "/react.png",
+        "pics":[
+            "",
+			"",
+			""
+        ],
+        "texts": [
+            "",
+			"",
+			""
+        ]
     }
 ]

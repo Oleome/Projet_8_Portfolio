@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import './modal.scss';
 import { MdClose } from 'react-icons/md';
 
-function Modal({ showModal, setShowModal, firstPic, secondPic, thirdPic, firstText, secondText, thirdText }) {
+function Modal({ showModal, setShowModal, pics, texts }) {
   
     const modalRef = useRef();
 
@@ -43,16 +43,16 @@ function Modal({ showModal, setShowModal, firstPic, secondPic, thirdPic, firstTe
             <div className="modal--wrapper">
             <div className="modal--content">
                 <div className="modal--content--container">
-                <img src={firstPic} alt="pic project" className="modal--img" />
-                <p>{firstText}</p>
+                    <img src={pics[0]} alt="pic project" className="modal--img" />
+                    <p>{texts[0]}</p>
                 </div>
                 <div className="modal--content--container">
-                <p>{secondText}</p>
-                <img src={secondPic} alt="pic project" className="modal--img" />
+                    <p>{texts[1]}</p>
+                    <img src={pics[1]} alt="pic project" className="modal--img" />
                 </div>
                 <div className="modal--content--container">
-                <img src={thirdPic} alt="pic project" className="modal--img" />
-                <p>{thirdText}</p>
+                    <img src={pics[0]} alt="pic project" className="modal--img" />  
+                    <p>{texts[2]}</p>
                 </div>
             </div>
             <MdClose
