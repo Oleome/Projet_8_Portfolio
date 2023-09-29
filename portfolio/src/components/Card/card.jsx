@@ -1,12 +1,7 @@
-import { useState } from 'react';
 import '../../styles/projet.scss';
 
-function Card({cover, pastille, title, item, onClick }) {
-    const [showModal, setShowModal] = useState(false);
-
-    const openModal = () => {
-        setShowModal(prev => !prev)
-    };
+function Card({cover, pastille, title, onClick }) {
+  
 
     return (
         <div className="card">
