@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import '../../styles/projet.scss';
-import jsonData from '../../data/data.json';
-import Modal from '../Modal/modal';
 
-function Card({cover, pastille, title, item}) {
+function Card({cover, pastille, title, item, onClick }) {
     const [showModal, setShowModal] = useState(false);
 
     const openModal = () => {
@@ -18,10 +16,10 @@ function Card({cover, pastille, title, item}) {
             </div>
             <div className="hover-image">
                 <h3>{title}</h3>
-                <button onClick={() => openModal(item)}>Details</button>
+                <button onClick={onClick}>Details</button>
             </div>
-        </div>                          
+        </div>
     )
-} 
+}
 
 export default Card

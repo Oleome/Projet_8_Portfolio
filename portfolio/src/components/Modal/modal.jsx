@@ -39,29 +39,29 @@ function Modal({ showModal, setShowModal, pics, texts }) {
 
     return (
         <div className="modal--background" ref={modalRef} onClick={closeModal}>
-        <animated.div className="animated--div" style={animation}>
-            <div className="modal--wrapper">
-            <div className="modal--content">
-                <div className="modal--content--container">
-                    <img src={pics[0]} alt="pic project" className="modal--img" />
-                    <p>{texts[0]}</p>
+            <animated.div className="animated--div" style={animation}>
+                <div className="modal--wrapper">
+                    <div className="modal--content">
+                        <div className="modal--content--container">
+                            <img src={pics[0]} alt="pic project" className="modal--img" />
+                            <p>{texts[0]}</p>
+                        </div>
+                        <div className="modal--content--container">
+                            <p>{texts[1]}</p>
+                            <img src={pics[1]} alt="pic project" className="modal--img" />
+                        </div>
+                        <div className="modal--content--container">
+                            <img src={pics[0]} alt="pic project" className="modal--img" />
+                            <p>{texts[2]}</p>
+                        </div>
+                    </div>
+                    <MdClose
+                        className="close__modal--button"
+                        aria-label="Close modal"
+                        onClick={() => setShowModal(false)}
+                    />
                 </div>
-                <div className="modal--content--container">
-                    <p>{texts[1]}</p>
-                    <img src={pics[1]} alt="pic project" className="modal--img" />
-                </div>
-                <div className="modal--content--container">
-                    <img src={pics[0]} alt="pic project" className="modal--img" />  
-                    <p>{texts[2]}</p>
-                </div>
-            </div>
-            <MdClose
-                className="close__modal--button"
-                aria-label="Close modal"
-                onClick={() => setShowModal(false)}
-            />
-            </div>
-        </animated.div>
+            </animated.div>
         </div>
     );
 }
