@@ -2,12 +2,12 @@
 	{
 		"id": "1",
 		"title": "Création du site Kasa avec React",
-		"cover": "/Kasa.png",
+		"cover": "/Kasa.webp",
         "pastille": "/react.png",
         "pics":[
-            "/kasa_accueil.png",
-			"/kasa_details.png",
-			"/kasa_a_propos.png"
+            "/kasa_accueil.webp",
+			"/kasa_details.webp",
+			"/kasa_a_propos.webp"
         ],
         "texts": [
             "Le but de ce projet était de créez une application web de location immobilière avec React",
@@ -18,7 +18,7 @@
     {
         "id": "2",
 		"title": "Backend du site Mon vieux grimoire",
-		"cover": "/monvieuxgrimoire.png",
+		"cover": "/monvieuxgrimoire.webp",
         "pastille": "/nodejs.png",
         "pics":[
             "",
@@ -34,7 +34,7 @@
     {
 		"id": "3",
 		"title": "Débug du portfolio de Nina Carducci",
-		"cover": "/nina.png",
+		"cover": "/nina.webp",
         "pastille": "/light.png",
         "pics":[
             "",
@@ -50,7 +50,7 @@
     {
         "id": "4",
 		"title": "Création application React pour un streamer twitch créant des shaders OBS",
-		"cover": "/shader.png",
+		"cover": "/shader.webp",
         "pastille": "/react.png",
         "pics":[
             "",
