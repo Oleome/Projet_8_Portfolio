@@ -11,7 +11,7 @@ function Home() {
                 <p>Je suis Pierre Pillot</p>
                 <p>Développeur Web</p>
             </div>
-            <div>
+            <div className='home--pic'>
                 <img src={me} alt="" />
             </div>
             <NavLink className='projets' to="projets">Mes projets</NavLink>

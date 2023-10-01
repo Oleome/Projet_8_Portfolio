@@ -4,33 +4,65 @@
   align-items: center;
   height: 90vh;
 
-  .typewriter p {
-    overflow: hidden; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    font-size: 3rem;
-    font-weight: bold;
-    padding: 10px;
-    font-family: monospace;
-    opacity: 0; 
-    animation: appear 1s forwards; 
-  }
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .typewriter {
+
+    margin: 50px 0;
+
+    p {
+      overflow: hidden; 
+      white-space: nowrap; 
+      margin: 0 auto; 
+      font-size: 3rem;
+      font-weight: bold;
+      padding: 10px;
+      font-family: monospace;
+      opacity: 0; 
+      animation: appear 1s forwards; 
   
-  .typewriter p:nth-child(1) {
-    animation-delay: .5s;
+      @media screen and (max-width: 900px) {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 650px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    p:nth-child(1) {
+      animation-delay: .5s;
+    }
+
+    p:nth-child(2) {
+      animation-delay: 2s;
+    }
+
+    p:nth-child(3) {
+      animation-delay: 3.5s;
+    }
   }
-  
-  .typewriter p:nth-child(2) {
-    animation-delay: 2s;
-  }
-  
-  .typewriter p:nth-child(3) {
-    animation-delay: 3.5s;
-  }
-  
+
   @keyframes appear {
     from { opacity: 0; }
     to { opacity: 1; }
+  }
+
+  .home--pic {
+    width: 30%;
+    height: auto;
+    margin-bottom: 50px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .projets {
@@ -50,8 +82,20 @@
     &:hover {
       transform: scale(1.1);
     }
+
+    @media screen and (max-width: 900px) {
+      position: static; 
+      bottom: auto;
+      left: auto; 
+    }
+
+    @media screen and (max-width: 650px) {
+      font-size: 1rem;
+    }
   }
 }
+
+
 
 
   
