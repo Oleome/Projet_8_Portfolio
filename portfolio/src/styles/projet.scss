@@ -4,22 +4,49 @@
     background-color: rgb(224, 209, 209);
     border-radius: 10px;
 
+    @media screen and (max-width: 1050px) {
+        margin: 50px;
+    }  
+
+    @media screen and (max-width: 650px) {
+        margin: 0;
+        border-radius: 0;
+    }  
+
     .title--container {
         display: flex;
         justify-content: center;
         align-items: center;
 
         .projets {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: bold;
             text-align: center;
             margin: 0;
             padding: 50px 0 40px;
-        }
+
+            @media screen and (max-width: 1050px) {
+                font-size: 2rem;
+            }
+            
+            @media screen and (max-width: 650px) {
+                font-size: 1.5rem;
+            } 
+
+            @media screen and (max-width: 450px) {
+                font-size: 1rem;
+                padding: 20px 0;
+            } 
+        } 
 
         img {
             width: 80px;
             height: 80px;
+
+            @media screen and (max-width: 650px) {
+                width: 40px;
+                height: 40px;
+             } 
         }
     }
 
@@ -27,10 +54,15 @@
 
     .container {
         display: flex;
-        padding: 0 75px 40px;
+        padding: 0 50px 40px;
         gap: 75px;
         justify-content: space-evenly;
         flex-wrap: wrap;
+
+        @media screen and (max-width: 1050px) {
+            gap: 15px;
+            padding: 0 0 20px;
+        }  
 
         .card {
             position: relative;
@@ -41,6 +73,10 @@
             padding: 3px;
             background-color: rgba(0, 0, 0, 0.1);
             border-radius: 5px;
+
+            @media screen and (max-width: 1050px) {
+                width: 90%;
+            }  
         
             .card--img {
                 width: 100%;
