@@ -8,6 +8,11 @@ header {
     background-color: black;
     color: white;
 
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
     .logo {
         top: 0;
         left: 10px;
@@ -15,6 +20,14 @@ header {
         font-weight: bold;
         font-size: 2rem;
         text-decoration: none;
+
+        @media screen and (max-width: 900px) {
+            font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 650px) {
+            font-size: 1rem;
+        }
     }
 
     .nav {
@@ -25,9 +38,25 @@ header {
         list-style: none;
         justify-content: space-between;
 
+        @media screen and (max-width: 900px) {
+            width: 80%;
+        }
+        
+        @media screen and (max-width: 900px) {
+            width: 100%;
+        }
+
         &--link {
             text-decoration: none;
             color: white;
+
+            @media screen and (max-width: 900px) {
+                font-size: .9rem;
+            }
+
+            @media screen and (max-width: 650px) {
+                font-size: .7rem;
+            }
 
             &.active {
                 text-decoration: underline;
