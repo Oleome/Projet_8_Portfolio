@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import '../styles/contact.scss';
+import email from  '../assets/email.png';
 
 
 function Contact () {
@@ -24,15 +25,21 @@ function Contact () {
   
     return (
       <div className="container--contact">
-        <form ref={form} onSubmit={sendEmail} className="form">
-          <label>Name</label>
-          <input type="text" name="name" />
-          <label>Email</label>
-          <input type="email" name="email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <button type="submit">Envoyer</button>
-        </form>
+        <div className="contact--pic">
+          <h2>Pour me contacter, envoyez moi un message via ce formulaire</h2>
+          <img src={email} alt="un dessin d'email" />
+        </div>
+        <div className="form--container">
+          <form ref={form} onSubmit={sendEmail} className="form">
+            <label>Nom</label>
+            <input type="text" name="name" />
+            <label>Email</label>
+            <input type="email" name="email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
       </div>
     )
 }
