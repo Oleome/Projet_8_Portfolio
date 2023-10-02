@@ -6,9 +6,6 @@ import email from  '../assets/email.png';
 
 function Contact () {
 
-    const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
-    const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
-    const publicId = process.env.REACT_APP_YOUR_PUBLIC_ID;
     const form = useRef();
     const sendEmail = (e) => {
       e.preventDefault();
