@@ -6,15 +6,19 @@ function Home() {
     return (
 
         <main className='main--home'>
-            <div className="typewriter">
-                <p>Bonjour</p>
-                <p>Je suis Pierre Pillot</p>
-                <p>Développeur Web</p>
+            <div className='home--container'>
+                <div className="typewriter">
+                    <p>Bonjour</p>
+                    <p>Je suis Pierre Pillot</p>
+                    <p>Développeur Web</p>
+                </div>
+                <div className='home--pic'>
+                    <img src={me} alt="dessin de développeur" />
+                </div>
             </div>
-            <div className='home--pic'>
-                <img src={me} alt="" />
-            </div>
-            <NavLink className='projets' to="projets">Mes projets</NavLink>
+            <div className="projets--button">
+                <NavLink className='projets' to="projets">Mes projets</NavLink>
+            </div>  
         </main>
     )
 }
