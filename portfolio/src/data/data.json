@@ -10,7 +10,7 @@
 			"/kasa_a_propos.webp"
         ],
         "texts": [
-            "Le but de ce projet était de créez une application web de location immobilière avec React",
+            "Le but de ce projet était de créer une application web de location immobilière avec React",
 			"Avec comme support Create-react-app, ce projet m'a permis de mieux appréhender les possibilités de React",
 			"La réutilisation de composant ainsi que l'utilisation de Sass m'ont vraiment passionné"
         ]
@@ -21,14 +21,14 @@
 		"cover": "/monvieuxgrimoire.webp",
         "pastille": "/nodejs.png",
         "pics":[
-            "",
-			"",
-			""
+            "/monvieuxgrimoire.webp",
+			"/grimoire_ajout.webp",
+			"/grimoire_connexion.webp"
         ],
         "texts": [
-            "Le but de ce projet était de créez une application web de location immobilière avec React",
-			"",
-			""
+            "Le but de ce projet était de créer le backend du site une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
+			"Avec la création d'une API et d'une base de donnée, j'ai pu mieux explorer et comprendre la relation étroite entre front et back",
+			"Ce projet a été un challenge dans ma formation, mais m'a permis d'acquérir de nouvelles compétences très utiles"
         ]
     },
     {
@@ -37,14 +37,14 @@
 		"cover": "/nina.webp",
         "pastille": "/light.png",
         "pics":[
-            "",
-			"",
-			""
+            "/nina.webp",
+			"/lighthouse.webp",
+			"/wave.webp"
         ],
         "texts": [
-            "Le but de ce projet était de créez une application web de location immobilière avec React",
-			"",
-			""
+            "Le but de ce projet était d'optimiser et de débugger le site portfolio de la photographe Nina Carducci",
+			"Ce projet m'a permis de développer des compétences dans le domaine du SEO",
+			"J'ai pû également me servir d'outils comme Google ligthouse, Wave ou encore Rich snippet"
         ]
 	},
     {
@@ -53,14 +53,14 @@
 		"cover": "/shader.webp",
         "pastille": "/react.png",
         "pics":[
-            "",
-			"",
-			""
+            "/liste_effets.webp",
+			"/shaders.webp",
+			"/shader_filtres.webp"
         ],
         "texts": [
-            "Le but de ce projet était de créez une application web de location immobilière avec React",
-			"",
-			""
+            "J'ai eu l'opportunité de créer une application React pour le streamer xurei qui permet de faire la promotion de ses shaders OBS",
+			"La création de l'application react a été réalisé avec Vite à sa demande",
+			"J'ai pû mettre en pratique ce que j'ai appris dans ma formation et développer de nouvelles compétences"
         ]
     }
 ]

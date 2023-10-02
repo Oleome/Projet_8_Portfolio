@@ -51,7 +51,7 @@ function Modal({ showModal, setShowModal, pics, texts }) {
                             <img src={pics[1]} alt="pic project" className="modal--img" />
                         </div>
                         <div className="modal--content--container">
-                            <img src={pics[0]} alt="pic project" className="modal--img" />
+                            <img src={pics[2]} alt="pic project" className="modal--img" />
                             <p>{texts[2]}</p>
                         </div>
                     </div>
