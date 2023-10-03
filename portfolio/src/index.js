@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './layout/Header/header';
-import Footer from './layout/Footer/footer';
 import Error from './pages/error';
 import Home from './pages/home';
 import './styles/global.scss';
@@ -25,7 +24,6 @@ root.render(
         <Route path="/services" element={<Services />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Footer />
     </Router>
   </React.StrictMode>
 );

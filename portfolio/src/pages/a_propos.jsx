@@ -15,7 +15,7 @@ function APropos () {
                     <span>Je suis également passionné de kayak et de pêche en mer, activités qui me permettent de m'épanouir et d'être créatif dans mon métier.</span>
                 </p>
                 <p>
-                    <span>J'ai pour but de devenir freelance et d'être un soutient pour les entreprises et les professionnels avec lesquels je travaillerais.</span>
+                    <span>Ayant une forte appétence pour React, j'ai pour but d'intégrer une entreprise pour développer mes compétences et m'épanouir au sein d'une équipe.</span>
                 </p>
             </div> 
             <div className='kayak--container'>
