@@ -1,5 +1,6 @@
 import '../styles/projets.scss';
-import ordi from '../assets/ordi.png';
+import workdonetest from '../assets/workdonetest.png';
+import inprogress from '../assets/inprogress.png';
 import { useState } from 'react';
 import Modal from '../components/Modal/modal';
 import projectsData from '../data/projects.json';
@@ -28,8 +29,7 @@ function Projets() {
             </nav>
             <section className="main--projet" id='projets'>
                 <div className="title--container">
-                    <h2 className="projets">Mes projets</h2>
-                    <img src={ordi} alt="une icône d'ordinateur" />
+                    <img src={workdonetest} alt="une icône d'ordinateur" />
                 </div>
                 <div className="container">
                     {projectsData.map((project) => (
@@ -57,8 +57,7 @@ function Projets() {
             </section>
             <section className="main--projet" id='projets-en-cours'>
                 <div className="title--container">
-                    <h2 className="projets">Mes projets en cours</h2>
-                    <img src={ordi} alt="une icône d'ordinateur" />
+                    <img src={inprogress} alt="une icône d'ordinateur" />
                 </div>
                 <div className="container">
                     {projectsInProgress.map((project) => (
