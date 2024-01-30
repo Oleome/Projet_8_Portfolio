@@ -1,4 +1,4 @@
-import '../../styles/projet.scss';
+import '../../styles/projets.scss';
 
 function Card({cover, pastille, title, onClick }) {
   

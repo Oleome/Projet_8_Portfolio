@@ -1,7 +1,21 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+
+    span {
+        cursor: pointer;
+    }
+}
+
 .main--projet {
     min-width: 350px;
     display: block;
-    margin: 100px;
+    margin: 0 100px 100px;
     background-color: rgb(224, 209, 209);
     border-radius: 10px;
 
