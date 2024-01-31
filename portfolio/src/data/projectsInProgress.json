@@ -18,17 +18,17 @@
     {
         "id": "2",
 		"title": "Conception template pour compte rendu automatisé",
-		"cover": "/monvieuxgrimoire.webp",
-        "pastille": "/nodejs.png",
+		"cover": "/paiement-formulaire.png",
+        "pastille": "/docx.png",
         "pics":[
-            "",
-			"/grimoire_ajout.webp",
-			"/grimoire_connexion.webp"
+            "/docx.webp",
+			"/automation.jpg",
+			"/stimulation.jpg"
         ],
         "texts": [
-            "Le but de ce projet était de créer le backend du site une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres.",
-			"Avec la création d'une API et d'une base de donnée, j'ai pu mieux explorer et comprendre la relation étroite entre front et back",
-			"Ce projet a été un challenge dans ma formation, mais m'a permis d'acquérir de nouvelles compétences très utiles"
+            "Le but de ce projet était de générer des comptes rendus au format Word en utilisant la librairie docx",
+			"Ce défi visait à faire gagner un temps précieux à l'utilisateur grâce à de l'automatisation",
+			"Ce projet est le compliqué que j'ai pû faire à ce jour, mais il m'a beaucoup apporté et me stimule encore énormément"
         ]
     }
 ]
